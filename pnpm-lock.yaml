@@ -103,8 +103,8 @@ importers:
         specifier: ^3.6.1
         version: 3.6.1
       '@event-calendar/list':
-        specifier: ^3.6.1
-        version: 3.6.1
+        specifier: ^3.7.0
+        version: 3.7.0
       '@iconify/svelte':
         specifier: ^4.0.2
         version: 4.0.2(svelte@4.2.19)
@@ -394,11 +394,14 @@ packages:
   '@event-calendar/core@3.6.1':
     resolution: {integrity: sha512-Q2ungvu3h/aZTf8bWDHUIja7Hxea2Et31riR+U8c95ZuCtwnLhxff1PSvrbGIOR1LPgZc9XYvPx91sM+Z/7Ybg==}
 
+  '@event-calendar/core@3.7.0':
+    resolution: {integrity: sha512-dib31CLpy1OND+79R7yuQMwhlYeNq24os+bsfjVl4+6MlkSM8m34pLzxG0Z9Vo2uIqnuyBlpdINg5G4Zyf+oBw==}
+
   '@event-calendar/day-grid@3.6.1':
     resolution: {integrity: sha512-YKJwysDnnys1knIlCV6W2AS1r+zC0P5Xcc8TPW7uAmXF/C/GO4nobi78xJXw8U1suYV3zXzY5vG1+s/wUIEyaA==}
 
-  '@event-calendar/list@3.6.1':
-    resolution: {integrity: sha512-X6ZvSrAheYEyuvlnV9lzGqpXnYp7nqvXwumF82Rf326vpi8yjcLV5PiTBXEoQDfvzeLXDv7K/2FpYcdnW6/llQ==}
+  '@event-calendar/list@3.7.0':
+    resolution: {integrity: sha512-HegvyhwFa3huPHm15m7K4RD+wy7WkscATtUabkaUJ8thtHfAETZS8GxL2LZHTxTNtEBNLC/GUMwxk6zf9ouVFg==}
 
   '@fastify/busboy@2.1.1':
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
@@ -2205,14 +2208,18 @@ snapshots:
     dependencies:
       svelte: 4.2.19
 
+  '@event-calendar/core@3.7.0':
+    dependencies:
+      svelte: 4.2.19
+
   '@event-calendar/day-grid@3.6.1':
     dependencies:
       '@event-calendar/core': 3.6.1
       svelte: 4.2.19
 
-  '@event-calendar/list@3.6.1':
+  '@event-calendar/list@3.7.0':
     dependencies:
-      '@event-calendar/core': 3.6.1
+      '@event-calendar/core': 3.7.0
       svelte: 4.2.19
 
   '@fastify/busboy@2.1.1': {}
