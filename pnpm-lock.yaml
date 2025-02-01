@@ -97,8 +97,8 @@ importers:
         version: 10.5.0
     devDependencies:
       '@event-calendar/core':
-        specifier: ^3.6.1
-        version: 3.6.1
+        specifier: ^3.9.0
+        version: 3.9.0
       '@event-calendar/day-grid':
         specifier: ^3.6.1
         version: 3.6.1
@@ -391,8 +391,11 @@ packages:
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@event-calendar/core@3.6.1':
-    resolution: {integrity: sha512-Q2ungvu3h/aZTf8bWDHUIja7Hxea2Et31riR+U8c95ZuCtwnLhxff1PSvrbGIOR1LPgZc9XYvPx91sM+Z/7Ybg==}
+  '@event-calendar/core@3.6.2':
+    resolution: {integrity: sha512-DUSKtuhc49Uhjadk3sBQnB0ZaR8JeZnxcmA5xAN2Gv7HLNinXcUOPOwuraBeL25nASxGgAQ7kQxDSgv4EOxcmQ==}
+
+  '@event-calendar/core@3.9.0':
+    resolution: {integrity: sha512-MqJQLkllZh0JvCtM9i6mc2qtzDYrI4NFXBX/DZS7b/amo6viZdlVzoE0zfJfZPYOeo9bXV/llT/X0PBAvRJmmA==}
 
   '@event-calendar/day-grid@3.6.1':
     resolution: {integrity: sha512-YKJwysDnnys1knIlCV6W2AS1r+zC0P5Xcc8TPW7uAmXF/C/GO4nobi78xJXw8U1suYV3zXzY5vG1+s/wUIEyaA==}
@@ -2201,18 +2204,22 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@event-calendar/core@3.6.1':
+  '@event-calendar/core@3.6.2':
+    dependencies:
+      svelte: 4.2.19
+
+  '@event-calendar/core@3.9.0':
     dependencies:
       svelte: 4.2.19
 
   '@event-calendar/day-grid@3.6.1':
     dependencies:
-      '@event-calendar/core': 3.6.1
+      '@event-calendar/core': 3.6.2
       svelte: 4.2.19
 
   '@event-calendar/list@3.6.1':
     dependencies:
-      '@event-calendar/core': 3.6.1
+      '@event-calendar/core': 3.6.2
       svelte: 4.2.19
 
   '@fastify/busboy@2.1.1': {}
